@@ -11,7 +11,7 @@ test_df = pd.read_csv("dataset/Linear_Regression/test.csv")
 train_df = train_df.dropna()
 test_df = test_df.dropna()
 
-# 2. Prepare features (X) and target (y)
+# 2. features and targer
 X_train = train_df[['x']]
 y_train = train_df['y']
 
